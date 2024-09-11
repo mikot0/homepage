@@ -1,0 +1,368 @@
+<style>
+body {
+    background: url('1.jpg') fixed 0% 0% / cover;
+}
+
+body, a {
+    color: #000;
+    text-decoration: none;
+}
+
+.mikoto {
+    margin: 38px 38px;
+}
+
+@media (min-width: 1024px) {
+    .moemikoto {
+        float: left;
+        width: 16.666666%;
+    }
+
+    .lovemikoto {
+        float: left;
+        width: 83.333333%;
+    }
+}
+
+.moemikoto .card, .bili, .footer {
+    text-align: center;
+}
+
+.cute img {
+    width: 166px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mikoto {
+        margin: 0;
+    }
+
+    .moemikoto .cute img {
+        display: none;
+    }
+
+    .moemikoto .text a {
+        width: 16%;
+    }
+}
+
+.moemikoto .text {
+    font-size: 13px;
+    padding: 0 6px;
+    text-align: justify;
+}
+
+.text a {
+    margin: 1px 0;
+    width: 100%;
+}
+
+.bili {
+    display: inline-block;
+    width: 16%;
+    border: 1px solid;
+}
+
+.card {
+    padding: 16px 16px;
+    box-shadow: 0 0 16px;
+    backdrop-filter: blur(1.6px);
+    -webkit-backdrop-filter: blur(1.6px);
+}
+
+.text {
+    line-height: 1.66;
+}
+
+a:hover, .text span:hover {
+    border-bottom: 1px solid;
+}
+
+.line {
+    display: inline-block;
+    text-decoration: underline wavy;
+    text-underline-offset: 6px;
+}
+
+.line:hover {
+    transform: translate(2px, -2px);
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 6px;
+}
+
+h1:nth-of-type(1):hover::after {
+    content: "外表冷淡内心娇羞";
+}
+
+h1:nth-of-type(2):hover::after {
+    content: "优雅教养 平易近人 大家闺秀";
+}
+
+h1:nth-of-type(3):hover::after {
+    content: "天真活泼 纯情辣妹";
+}
+
+h1:nth-of-type(4):hover::after {
+    content: "真的非常可爱";
+}
+
+h1:nth-of-type(5):hover::after {
+    content: "怕虫子";
+    text-decoration: line-through;
+}
+
+h1:nth-of-type(6):hover::after {
+    content: "呜喵";
+}
+
+h1:hover::after {
+    padding: 3px;
+    font-size: 13px;
+    background-color: #00000029;
+    animation: h1 3s;
+}
+
+@keyframes h1 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+.bilibili, .railgun {
+    width: 90%;
+    border-radius: 3px;
+}
+
+.bilibili {
+    background-color: #0003;
+}
+
+.railgun {
+    height: 6px;
+    background-color: #000;
+}
+
+.line2 {
+    margin: 6px;
+    border-bottom: 1px dashed;
+}
+
+.lovemikoto .cute {
+    display: flex;
+    border: 1px solid;
+}
+
+.lovemikoto .cute:hover {
+    box-shadow: 0 1px 35px -8px;
+}
+
+img:hover {
+    opacity: .8;
+}
+
+.txt {
+    padding: 6px 16px;
+}
+
+h2 {
+    font-weight: 166;
+}
+
+h2:hover, a:hover, .text span:hover, .line:hover {
+    text-shadow: .6px .6px 6vh;
+}
+
+.txt p {
+    font-weight: 166;
+}
+
+.bilitext {
+    padding: 6px 16px;
+    border: 1px solid;
+}
+
+.line3 {
+    margin: 6px;
+    border-bottom: 1px dotted;
+}
+
+.line4 {
+    height: 2px;
+    width: 80%;
+    margin: 16px 123;
+    background: #0000004d;
+}
+
+.footer {
+    font-size: 12px;
+    opacity: .5;
+}
+</style>
+
+<body>
+    <main class="mikoto">
+        <div class="moemikoto">
+            <div class="card">
+                <div class="cute">
+                    <img src="1.jpeg">
+                </div>
+                <ruby>御 坂 美 琴<rt>みさかみこと</rt></ruby>
+                <br>misakamikoto
+                <div class="text">
+                    常盘台的王牌 电击公主<ruby>超电磁炮<rt>Railgun</rt></ruby> 炮姐 bilibili<ruby>姐姐大人<rt>欧内撒嘛</rt></ruby>(白井黑子 妹妹们限定)
+                    茶发 茶瞳 161cm 45kg 78/56/79 14岁 5月2日 AB型 神奈川县 第7学区常盘台中学学生宿舍208号室<br>
+
+                    <a class="bili" href="">
+                        articles and diaries</a>
+
+                    <a class="bili" href="">
+                        white album</a>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="lovemikoto">
+            <div class="card">
+                <span class="text line"><a href="#mikoto">#</a> 战斗力</span>
+                <p>
+                    <span class="text"><span>炮姐个性</span><br>
+                    天真活泼可爱的14岁元气少女茶色瞳发，被学妹室友兼百合的白井黑子所爱慕，(电脑配件(媚药) 情趣内衣以诱惑 (那个女人)私密日记(相册)
+                    触摸肌肤)被电击制裁，卡通形象呱太着迷，手机，书包挂饰，甚至内衣(胖次)图案全是呱太，一年级时表现得很孩子气和单纯，乱丢自己的睡衣和呱太玩偶，洗澡时会睡着，迷糊间拿错书包。<br>
+                        <span>炮姐语录</span><br>
+                        <span>炮姐才艺</span><br>
+                        <span>how lucky to meet you!</span>
+                        <a href=""><ruby>(友情链接)<rt>嗷呜</rt></ruby></a>
+                    </span>
+                <p>
+                    <span class="text line"><a href="#mikoto">#</a> 萌点</span>
+
+                <h1>傲娇</h1>
+                <div class="bilibili">
+                    <div class="railgun" style="width: 6%;"></div>
+                </div>
+
+                <h1>大小姐</h1>
+                <div class="bilibili">
+                    <div class="railgun" style="width: 38%;"></div>
+                </div>
+
+                <h1>元气</h1>
+                <div class="bilibili">
+                    <div class="railgun" style="width: 32%;"></div>
+                </div>
+
+                <h1>孩子气</h1>
+                <div class="bilibili">
+                    <div class="railgun" style="width: 95%;"></div>
+                </div>
+
+                <h1>暴力女</h1>
+                <div class="bilibili">
+                    <div class="railgun" style="width: 74%;"></div>
+                </div>
+
+                <h1>羞涩</h1>
+                <div class="bilibili">
+                    <div class="railgun" style="width: 20%;"></div>
+                </div>
+                <br>
+
+                <span class="text line"><a href="#mikoto">#</a> 咱生活的地方</span>
+                <br>
+
+                <a class="bili" href="">
+                    x</a>
+
+                <a class="bili" href="">
+                    pixiv</a>
+
+                <a href="mailto:"><ruby>(邮箱)<rt>mail</rt></ruby></a>
+                <a href=""><ruby>(纸飞机)<rt>裙聊</rt></ruby></a>
+
+                <p>
+
+                    <span class="text line"><a href="#mikoto">#</a> 文章</span>
+                <div class="line2"></div>
+                <div class="cute"><img src="1.jpeg">
+                    <div class="txt">
+                        <h2>misakamikoto(isshi pyuma)</h2>
+                        <p>time 2024/6/6</p>
+                        <p>folder-みこと,美琴</p>
+                        <p>label みさかみこと,御坂美琴</p>
+                        <a class="bilitext" href="">查看原文</a>
+                    </div>
+                </div>
+
+                <div class="line3"></div>
+
+                <div class="cute"><img src="1.jpeg">
+                    <div class="txt">
+                        <h2></h2>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <a class="bilitext" href="">查看原文</a>
+                    </div>
+                </div>
+
+                <div class="line3"></div>
+
+                <div class="cute"><img src="1.jpeg">
+                    <div class="txt">
+                        <h2></h2>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <a class="bilitext" href="">查看原文</a>
+                    </div>
+                </div>
+                <div class="line2"></div>
+
+                <p>
+
+                    <span class="text line"><a href="#mikoto">#</a> 作品</span>
+                <div class="line2"></div>
+                <div class="cute"><img src="1.jpeg">
+                    <div class="txt">
+                        <h2></h2>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <a class="bilitext" href="">查看原文</a>
+                    </div>
+                </div>
+
+                <div class="line3"></div>
+
+                <div class="cute"><img src="1.jpeg">
+                    <div class="txt">
+                        <h2></h2>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <a class="bilitext" href="">查看原文</a>
+                    </div>
+                </div>
+                <div class="line2"></div>
+
+                <div class="line4"></div>
+
+                <div style="text-align: center;letter-spacing: 6px;margin-bottom: 6px;">
+                    御坂美琴@misakamikoto</div>
+                <div class="footer" style="letter-spacing: 6px;">
+                    你指尖跃动的电光，是我此生不灭的信仰，唯我超电磁炮永世长存！</div>
+
+            </div>
+        </div>
+    </main>
+</body>
